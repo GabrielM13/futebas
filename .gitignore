@@ -137,3 +137,16 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+/generated/prisma
+
+# Output build (TypeScript)
+dist/
+
+# Prisma (opcional)
+prisma/dev.db
+prisma/migrations/
+
+# Banco local (se usar SQLite temporariamente)
+*.db
+*.sqlite
